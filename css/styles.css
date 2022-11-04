@@ -63,16 +63,16 @@
 	letter-spacing: 0.02em;
 }
 
+.nav-link {
+	color: var(--main-title-cl);
+}
+
 .contact-link {
 	font-weight: 500;
 	font-size: 14px;
 	line-height: calc(16 / 14);
 	letter-spacing: 0.02em;
 	color: var(--main-text-cl);
-}
-
-.nav-link {
-	color: var(--main-title-cl);
 }
 
 .nav-link:hover,
@@ -100,6 +100,7 @@
 }
 .hero-btn {
 	font-family: inherit;
+	font-weight: 700;
 	font-size: 16px;
 	line-height: calc(30 / 16);
 	letter-spacing: 0.06em;
